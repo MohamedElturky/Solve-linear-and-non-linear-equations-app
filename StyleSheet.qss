@@ -1,0 +1,92 @@
+/* General Main Window Style */
+QMainWindow {
+    background-color: rgb(243, 243, 243);
+    color: #2f3548;
+}
+
+/* Buttons */
+QPushButton, QToolButton {
+    font-size: 14px;
+    padding: 3px;
+    min-width: 60px;
+    border-radius: 10px;
+    background-color: rgb(57, 52, 255);
+    color: white;
+}
+QPushButton:hover {
+    background-color: rgba(57, 52, 255, 0.6);
+}
+QPushButton:pressed {
+    background-color: rgba(57, 52, 255, 0.8);
+}
+
+/* Line Edit */
+QLineEdit {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 12px;
+    background-color: white;
+}
+
+/* Labels */
+QLabel {
+    font-size: 13px;
+    color: #2f3548;
+}
+
+QLabel#time {
+    font-size: 24px;
+    color: #2f3548;
+}
+
+QLabel#Iterations {
+    font-size: 24px;
+    color: #2f3548;
+}
+
+/* ComboBox, DateEdit, and TimeEdit */
+QComboBox, QDateEdit, QTimeEdit {
+    padding: 3px 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: white;
+}
+
+/* GroupBox */
+QGroupBox {
+    font-size: 16px;
+    padding: 3px;
+    margin: 3px 0;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+}
+
+/* Text Browser and Plain Text Edit */
+QTextBrowser, QPlainTextEdit {
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid rgb(220, 220, 220);
+    padding: 3px;
+}
+
+/* Text Edit */
+QTextEdit {
+    font-size: 18px;
+}
+QTextEdit#view {
+    font-size: 12px;
+}
+
+/* Scroll Area */
+QScrollArea {
+    padding: 3px;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+}
+
+/* Prevent Overlaps (Removed overflow property) */
+QWidget {
+    /* overflow: hidden; */ /* This line is removed */
+}
